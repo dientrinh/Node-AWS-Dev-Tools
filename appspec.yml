@@ -1,8 +1,5 @@
-version: 0.2
-phases:
-  install:
-    commands:
-      - npm install
-      - npm i -g mocha
-      - npm i -g chai
-      - npm test
+version: 0.0
+os: linux
+files:
+  - source: /*
+    destination: /tmp/
