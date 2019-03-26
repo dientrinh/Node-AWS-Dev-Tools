@@ -8,4 +8,6 @@ phases:
       - npm test
 artifacts:
     files:
-    - /*
+    - appspec.yml
+    - index.html
+    - scripts/*
