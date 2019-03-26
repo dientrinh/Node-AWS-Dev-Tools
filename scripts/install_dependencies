@@ -1,5 +1,2 @@
 #!/bin/bash
-yum install -y npm
-yum npm -y mocha
-yum npm -y chai
-
+yum install -y httpd
