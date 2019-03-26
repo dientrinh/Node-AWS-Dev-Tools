@@ -6,3 +6,6 @@ phases:
       - npm i -g mocha
       - npm i -g chai
       - npm test
+artifacts:
+    files:
+    - /*
