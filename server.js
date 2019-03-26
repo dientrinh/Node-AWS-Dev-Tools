@@ -10,7 +10,7 @@ app.get('/', function (req, callback) {
 })
 
 app.get('/user', function (req, callback) {	
- 	callback.send("Hello dien trinh"); 	
+ 	callback.send("Hello dien trinhs"); 	
 })
 
 
