@@ -10,4 +10,7 @@ artifacts:
     files:
     - appspec.yml
     - index.html
+    - server.js
+    - package.json
     - scripts/*
+    - node_modules/*
