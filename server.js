@@ -9,6 +9,11 @@ app.get('/', function (req, callback) {
  	callback.send("Hello world"); 	
 })
 
+app.get('/user', function (req, callback) {	
+ 	callback.send("Hello dien trinh"); 	
+})
+
+
 var server = app.listen(appPort, function () {
 var host = server.address().address
 var port = server.address().port
