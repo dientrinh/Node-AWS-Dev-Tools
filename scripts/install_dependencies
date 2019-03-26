@@ -1,4 +1,5 @@
 #!/bin/bash
-yum install -y mocha
-yum install -y chai
+yum install -y npm
+yum npm -y mocha
+yum npm -y chai
 
